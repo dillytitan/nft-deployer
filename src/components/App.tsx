@@ -22,7 +22,7 @@ const App = (props: PropsFromRedux) => {
           ...(props.darkMode && {
             background: {
               default: "#131313",
-              paper: "#2b2b2b"
+              paper: "#00ff19"
             }
           })
         },
