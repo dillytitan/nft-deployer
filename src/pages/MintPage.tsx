@@ -84,6 +84,7 @@ const MintPage = (props: RouteComponentProps & IMintProps) => {
                 }
             </div>
             <div>
+                <h1>WELCOME FREN</h1>
                 {account && (
                     <Card className={classes.root}>
                         <CardContent>
