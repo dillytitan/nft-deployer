@@ -21,7 +21,7 @@ const App = (props: PropsFromRedux) => {
           type: props.darkMode ? 'dark' : 'light',
           ...(props.darkMode && {
             background: {
-              default: "#131313",
+              default: "#00ff19",
               paper: "#00ff19"
             }
           })
