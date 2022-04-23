@@ -53,7 +53,7 @@ const NavigationTopBar = (props: PropsFromRedux & RouteComponentProps) => {
 
   return (
     <div className={classes.root}>
-      <AppBar style={{background: 'linear-gradient(-90deg, #272727, #000000)'}} position="static">
+      <AppBar style={{background: '#00ff19'}} position="static">
         <Toolbar>
           <IconButton onClick={() => props.setShowLeftMenu(!localShowLeftMenu)} edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
             <MenuIcon />
